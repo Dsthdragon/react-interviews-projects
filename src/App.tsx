@@ -2,9 +2,12 @@
 // import RandomColor from "./components/random-color"
 // import StarRating from "./components/star-rating"
 import './App.css'
-import UseFetchHookTest from './components/use-fetch/test'
-import UseOnClickOutsideTest from './components/use-outside-click/test'
-import UseWindowResizeTest from './components/use-window-resize/test'
+import ScrollToSection from './components/scroll-to-top-and-bottom/scroll-to-section'
+
+// import ScrollToTopAndBottom from './components/scroll-to-top-and-bottom'
+// import UseFetchHookTest from './components/use-fetch/test'
+// import UseOnClickOutsideTest from './components/use-outside-click/test'
+// import UseWindowResizeTest from './components/use-window-resize/test'
 // import FeatureFlags from './components/feature-flag';
 // import FeatureFlagGlobalState from './components/feature-flag/context';
 // import SearchAutocomplete from './components/search-autocomplete-with-api'
@@ -47,7 +50,10 @@ function App() {
       {/* <UseFetchHookTest /> */}
 
       {/* <UseOnClickOutsideTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
     </div>
   )
 }
