@@ -2,8 +2,13 @@
 // import RandomColor from "./components/random-color"
 // import StarRating from "./components/star-rating"
 import './App.css'
+import UseFetchHookTest from './components/use-fetch/test'
+import UseOnClickOutsideTest from './components/use-outside-click/test'
+import UseWindowResizeTest from './components/use-window-resize/test'
+// import FeatureFlags from './components/feature-flag';
+// import FeatureFlagGlobalState from './components/feature-flag/context';
 // import SearchAutocomplete from './components/search-autocomplete-with-api'
-import TicTacToe from './components/tic-tac-toe';
+// import TicTacToe from './components/tic-tac-toe';
 // import GithubProfileFinder from './components/github-profile-finder'
 // import ModalTest from './components/custom-modal-popup/modal-test'
 // import TabTest from './components/custom-tabs/tab-test'
@@ -35,7 +40,14 @@ function App() {
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutocomplete /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+      {/* <UseFetchHookTest /> */}
+
+      {/* <UseOnClickOutsideTest /> */}
+      <UseWindowResizeTest />
     </div>
   )
 }
